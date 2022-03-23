@@ -1,0 +1,24 @@
+@import "vars";
+.menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    &__link {
+        font-family:$secondary-font;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-style: normal;
+        padding: 0 20px;
+        color: $accent;
+        transition: 0.5s;
+
+        &:hover {
+            color: lighten($accent, 20%);
+        }
+    }
+    &__item+&__item{
+        margin-left: 53px;
+    }
+   
+}
