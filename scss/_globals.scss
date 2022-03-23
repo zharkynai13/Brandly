@@ -1,0 +1,18 @@
+@import "vars";
+
+
+html {
+    box-sizing: border-box;
+}
+
+* ,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: $main-font;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+}
